@@ -1,0 +1,37 @@
+/*
+* Assignment [Assignment 1]
+
+* Description: [The job of this program is to run software
+that will display information about what the programmers name
+is and where they were born. The program needs to greet the user/world 
+at the start of the program and end with the polite phrase 
+"It's a pleasure to meet you." at the end of the "encounter".]
+
+* Name: [Jane Maxwell]
+
+* ID: [915928746]
+
+* Class: CSC 210-04
+
+* Semester: Fall 2019
+ */
+
+/* Every program needs a class. The class we are using in 
+this project is called HelloWorld.The next line in the program
+under class is our main method.The main method here is our start
+point to where we will begin coding and giving instructions to 
+the computer to present on the console output.
+*/
+public class HelloWorld {
+    public static void main(String[] args) {
+        
+/* The code that follows are println statemnts that will produce
+the desired text we want on the console output. The text includes
+the greeting,name of programer and where the programer was born,
+and the ending polite phrase. */
+
+        System.out.println("Hello World!");
+        System.out.println("My name is Jane, and I was born in Los Angeles");
+        System.out.print("It's a pleasure to meet you."); 
+    }
+}
